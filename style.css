@@ -19,7 +19,7 @@ top: 0;
 left: 0;
 width: 100%;
 padding: 20px 100px;
-background: #66FFFF;
+background: #D7FF33;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -28,7 +28,7 @@ z-index: 99;
 button{
     width: 130px;
 height: 50px;
-background: #99FFFF;
+background: #D8FF37;
 border: 2px solid #fff;
 outline: none;
 border-radius: 60px;
@@ -39,13 +39,13 @@ margin-left: 20px;
 transition: .5s;
 }
 button:hover{
-    background: #CCFFFF;
-color: #000099;
+    background: #9BFF37;
+color: #000000;
 }
 nav a{
 position: relative;
 font-size: 1.1em;
-color: #000099;;
+color: #000000;
 text-decoration: none;
 font-weight: 500;
 margin-left: auto;
