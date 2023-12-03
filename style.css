@@ -25,23 +25,25 @@ justify-content: space-between;
 align-items: center;
 z-index: 99;
 }
-button{
-    width: 130px;
-height: 50px;
-background: #D8FF37;
-border: 2px solid #fff;
-outline: none;
-border-radius: 60px;
-cursor: pointer;
-font-size: 1.1em;
-font-weight: 500;
-margin-left: 20px;
-transition: .5s;
-}
-button:hover{
-    background: #9BFF37;
-color: #000000;
-}
+button {
+    font-family: 'courier new';
+    font-weight: bold;
+    color: #000000 !important;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px #262223;
+    box-shadow: 3px 3px 3px #BEE2F9;
+    padding: 14px 29px;
+    border-radius: 14px;
+    border: 2px groove #000000;
+    background: #D7FF33;
+    background: linear-gradient(to top, #D7FF33, #55CF5D);
+    transition: 5s;
+  }
+  button:hover {
+    color: #14396A !important;
+    background: #55CF5D;
+    background: linear-gradient(to top, #55CF5D, #D7FF33);
+  }  
 nav a{
 position: relative;
 font-size: 1.1em;
