@@ -31,7 +31,7 @@ button {
     color: #000000 !important;
     font-size: 14px;
     text-shadow: 1px 1px 0px #262223;
-    box-shadow: 3px 3px 3px #BEE2F9;
+    box-shadow: 3px 3px 3px;
     padding: 14px 29px;
     border-radius: 14px;
     border: 2px groove #000000;
