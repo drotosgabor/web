@@ -4,10 +4,10 @@ padding: 0;
 box-sizing: border-box;
 }
 body{
-    background: #ddd;
-    background: radial-gradient(circle farthest-corner at center center, #ddd 0%, #009999 76%);    
-    background-size: 400%;
-    animation: bg-animation 10s infinite alternate;
+    background: #66FFFF;
+background: radial-gradient(circle farthest-corner at center center, #66FFFF 0%, #009999 23%);
+    background-size: 320%;
+    animation: bg-animation 7s infinite alternate;
 }
 @keyframes bg-animation {
     0% {background-position: left;}
