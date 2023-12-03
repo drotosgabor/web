@@ -37,7 +37,7 @@ button {
     border: 2px groove #000000;
     background: #D7FF33;
     background: linear-gradient(to top, #D7FF33, #55CF5D);
-    transition: 5s;
+    transition: .5s;
   }
   button:hover {
     color: #14396A !important;
