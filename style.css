@@ -4,8 +4,8 @@ padding: 0;
 box-sizing: border-box;
 }
 body{
-    background: #D7FF33;
-background: radial-gradient(circle farthest-corner at center center, #D7FF33 0%, #55CF5D 100%);
+    background: #55CF5D;
+background: radial-gradient(circle farthest-corner at center center, #55CF5D 0%, #D7FF33 100%);
     background-size: 320%;
     animation: bg-animation 7s infinite alternate;
 }
