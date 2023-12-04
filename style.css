@@ -37,12 +37,12 @@ button {
     border: 2px groove #000000;
     background: #D7FF33;
     background: linear-gradient(to top, #D7FF33, #55CF5D);
+    transition: .5s;
   }
   button:hover {
     color: #14396A !important;
     background: #55CF5D;
     background: linear-gradient(to top, #55CF5D, #D7FF33);
-    transition: .5s;
   }  
 nav a{
 position: relative;
