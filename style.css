@@ -7,7 +7,7 @@ body{
     background: #55CF5D;
 background: radial-gradient(circle farthest-corner at center center, #55CF5D 0%, #D7FF33 100%);
     background-size: 320%;
-    animation: bg-animation 7s infinite alternate;
+    animation: bg-animation 5s infinite alternate;
     font-family: 'Poppins', sans-serif;
 }
 @keyframes bg-animation {
