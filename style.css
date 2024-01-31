@@ -106,13 +106,13 @@ footer{
 .copyright{
     text-align: center;
 }
-#evszak{
+#tel{
     border: 5px solid #55CF5D;
     max-width: 300px;
     max-height: 500px;
-    float: left;
+    clear: both;
 }
-#evszak:hover{
+#tel:hover{
  width: 500px;
  height: 700px;
 }
