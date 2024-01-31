@@ -106,13 +106,13 @@ footer{
 .copyright{
     text-align: center;
 }
-#tel{
+#tel, #tavasz, #nyar, #osz{
     border: 5px solid #55CF5D;
     max-width: 300px;
     max-height: 500px;
     clear: both;
 }
-#tel:hover{
+#tel, #tavasz, #nyar, #osz:hover{
  width: 500px;
  height: 700px;
 }
