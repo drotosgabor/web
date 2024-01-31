@@ -112,8 +112,11 @@ footer{
     max-height: 500px;
     display: flex;
     justify-content: start;
-    clear: both;
+    float: left;
 }
 #tel, #tavasz, #nyar, #osz:hover{
 scale: 1.2;
+}
+#ok{
+    clear: both;
 }
