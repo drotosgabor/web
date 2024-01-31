@@ -106,7 +106,7 @@ footer{
 .copyright{
     text-align: center;
 }
-#tel, #tavasz, #nyar, #osz{
+#tel{
     border: 5px solid #55CF5D;
     max-width: 300px;
     max-height: 500px;
@@ -115,9 +115,44 @@ footer{
     float: left;
     transform: 2s;
 }
-#tel, #tavasz, #nyar, #osz:hover{
+#tavasz{
+    border: 5px solid #55CF5D;
+    max-width: 300px;
+    max-height: 500px;
+    display: flex;
+    justify-content: start;
+    float: left;
+    transform: 2s;
+} #osz{
+    border: 5px solid #55CF5D;
+    max-width: 300px;
+    max-height: 500px;
+    display: flex;
+    justify-content: start;
+    float: left;
+    transform: 2s;
+}
+     #nyar{
+        border: 5px solid #55CF5D;
+        max-width: 300px;
+        max-height: 500px;
+        display: flex;
+        justify-content: start;
+        float: left;
+        transform: 2s;
+}
+#osz:hover{
 scale: 1.2;
 }
+#tel:hover{
+    scale: 1.2;
+    }
+#tavasz:hover{
+        scale: 1.2;
+        }
+        #nyar:hover{
+            scale: 1.2;
+            }
 #ok{
     clear: both;
 }
