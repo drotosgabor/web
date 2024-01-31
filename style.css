@@ -110,7 +110,8 @@ footer{
     border: 5px solid #55CF5D;
     max-width: 300px;
     max-height: 500px;
-    clear: both;
+    display: flex;
+    justify-content: start;
 }
 #tel, #tavasz, #nyar, #osz:hover{
  width: 500px;
