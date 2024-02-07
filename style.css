@@ -113,8 +113,8 @@ footer{
 .container:hover img{
     scale: 1.1;
 }
-.container h3{
-    margin-top: 15px;
+.container{
+    margin: 15px;
 }
 #semmi{
     clear: both;
