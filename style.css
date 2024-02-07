@@ -106,8 +106,12 @@ footer{
 .copyright{
     text-align: center;
 }
-.container img{
+
+.container {
     float: left;
+    margin: 15px;
+}
+.container img{
     transition: 3s;
 }
 .container:hover img{
