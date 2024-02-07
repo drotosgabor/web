@@ -106,12 +106,15 @@ footer{
 .copyright{
     text-align: center;
 }
-.container{
+.container img{
     float: left;
     transition: 3s;
 }
 .container:hover img{
     scale: 1.1;
+}
+.container h3{
+    margin-top: 15px;
 }
 #semmi{
     clear: both;
