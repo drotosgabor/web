@@ -16,14 +16,38 @@
 </head>
 <body>
     <nav>
-        <button><a href="index.html">Főoldal</a></button>
-        <button><a href="keplink.html">KÉPLINK FELADAT</a></button>
-      <button><a href="listak.html">Lista feladat</a></button>
-     <button><a href="tablazat.html">Táblázat feladat</a></button>
-     <button><a href="urlap.html">Űrlap feladat</a></button>
-     <button><a href="evszak.html">Évszakok feladat</a></button>
-     <button><a href="calculator.html">Számológép</a></button>
+        <button class="nav"><a href="index.html">Főoldal</a></button>
+        <button class="nav"><a href="keplink.html">KÉPLINK FELADAT</a></button>
+      <button class="nav"><a href="listak.html">Lista feladat</a></button>
+     <button class="nav"><a href="tablazat.html">Táblázat feladat</a></button>
+     <button class="nav"><a href="urlap.html">Űrlap feladat</a></button>
+     <button class="nav"><a href="evszak.html">Évszakok feladat</a></button>
+     <button class="nav"><a href="calculator.html">Számológép</a></button>
     </nav>
+
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="appendToDisplay('+')" class="operator">+</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('-')" class="operator">-</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('*')" class="operator">*</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('/')" class="operator">/</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="clearDisplay()" class="operator">C</button>
+        </div>
+      </div>
+
     <footer>
         <div class="socialicon">
             <a href="https://hu-hu.facebook.com/gabor.drotos.585"><i class="fa-brands fa-facebook"></i></a>
@@ -35,5 +59,6 @@
             <p>Copyright &copy;2023, Készítette: Drótos Gábor</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

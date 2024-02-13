@@ -26,7 +26,7 @@ justify-content: space-between;
 align-items: center;
 z-index: 99;
 }
-button {
+.nav{
     font-family: 'courier new';
     font-weight: bold;
     color: #000000 !important;
@@ -40,7 +40,7 @@ button {
     background: linear-gradient(to top, #D7FF33, #55CF5D);
     transition: .5s;
   }
-  button:hover {
+  .nav:hover {
     color: #14396A !important;
     background: #55CF5D;
     background: linear-gradient(to top, #55CF5D, #D7FF33);
