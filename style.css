@@ -157,17 +157,17 @@ footer{
     cursor: pointer;
 }
 .button:hover{
-    background-color: hsl(0, 0%, 40%);
+    background-color: #fdaa0e;
 }
 .button:active{
-    background-color: hsl(0, 0%, 50%);
+    background-color: #fdae1a;
 }
 #operator{
     background-color: orange;
 }
 #operator:hover{
-    background-color: rgb(253, 170, 14);
+    background-color: #fdaa0e;
 }
 #operator:active{
-    background-color: rgb(253, 174, 26);
+    background-color: #fdae1a;
 }
