@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Képcserélő alkalmazás</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="FAvicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="FAvicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="FAvicon/favicon-16x16.png">
+    <link rel="manifest" href="FAvicon/site.webmanifest">
+    <link rel="mask-icon" href="FAvicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ff3900">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container img{
+            width: 300px;
+        }
+        .image {
+            cursor: pointer;
+        }
+        #bigImage{
+            width: 500px;
+        }
+        .image{
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <button class="nav"><a href="index.html">Főoldal</a></button>
+        <button class="nav"><a href="keplink.html">KÉPLINK FELADAT</a></button>
+      <button class="nav"><a href="listak.html">Lista feladat</a></button>
+     <button class="nav"><a href="tablazat.html">Táblázat feladat</a></button>
+     <button class="nav"><a href="urlap.html">Űrlap feladat</a></button>
+     <button class="nav"><a href="evszak.html">Évszakok feladat</a></button>
+     <button class="nav"><a href="calculator.html">Számológép</a></button>
+    </nav>
+
+
+    <div class="container">
+        <img class="image" src="plum-886224_640.jpg" alt="Áfonya" onclick="bigImage('apricots-1556851_640.jpg')">
+        <div class="bigImgContainer">
+            <img id="bigImage" src="" alt="Katints rá egy képre!">
+        </div>
+        <img class="image" src="apricots-1556851_640.jpg" alt="Barack" onclick="bigImage('plum-886224_640.jpg')">
+    </div>
+
+
+    <footer>
+        <div class="socialicon">
+            <a href="https://hu-hu.facebook.com/gabor.drotos.585"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com/drotos._.gabor"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://tiktok.com/@gabor.drotos"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="mailto:drotosg@kkszki.hu"><i class="fa-brands fa-google"></i></a>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy;2023, Készítette: Drótos Gábor</p>
+        </div>
+    </footer>
+    <script>
+          function bigImage(imageSrc) {
+    var bigImg = document.getElementById('bigImage');
+    bigImg.src = imageSrc;
+}
+    </script>
+</body>
+</html>
