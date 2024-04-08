@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iskola Étterem</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+<style>
+    footer{
+        width: 100%;
+    }
+    body{
+        font-family: monospace;
+    }
+    img{
+        height: 250px;
+    }
+    .csillag i{
+        font-size: 35px;
+        color: gainsboro;
+        cursor: pointer;
+        transition: color 0.2 ease;
+    }
+    .csillag{
+        width: fit-content;
+        height: auto;
+        border: none;
+        text-align: center;
+        gap: 10px;
+        margin-right: 0%;
+    }
+    .csillag i.aktiv{
+        color: orange;
+    }
+</style>
+<body>
+    <header class="navbar-expand-md text-center bg-dark-subtle p-5">
+        <h1>Iskola Étterem</h1>
+        <p>A Miskolci Kandó Kálmán iskolában található Étterem.</p>
+    </header>
+    <nav class="navbar-expand-md">
+        <div class="container-fluid text-center">
+                <button class="bg-primary border-none border-0 rounded p-2 m-2">
+                    <a class="text-decoration-none text-light" href="#">Főoldal</a>
+                </button>
+                    <button class="border-none border-0 rounded p-2 m-2 bg-transparent dropdown-toggle text-primary" data-bs-toggle="dropdown" aria-expanded="false" type="button">
+                        Étlap
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#leves">Levesek</a></li>
+                        <li><a class="dropdown-item" href="#foetelek">Főételek</a></li>
+                        <li><a class="dropdown-item" href="#desszert">Desszertek</a></li>
+                        <li><a class="dropdown-item" href="#ital">Italok</a></li>
+                      </ul>
+                <button class="border-none border-0 rounded p-2 m-2 bg-transparent">
+                    <a class="text-decoration-none" href="#comment">Megjegyzés</a>
+                </button>
+        </div>
+    </nav>
+<div>
+    <img src="img/welcome-to-our-home-1205888_640.jpg" alt="Üdvözöllek!" title="Üdvözöllek!" class="rounded mx-auto d-block">
+    <p class="text-center fs-5">Üdvözöllek az éttermünk oldalán!</p>
+</div>
+
+    <h1 class="pt-5 text-center">Étlap</h1>
+    
+    
+    <h3 id="leves" class="mt-5 text-center">Levesek</h3>
+<div class="container">
+    <div class="row">
+            <div class="card col-sm-4 m-2" style="width: 400px;">
+                <img src="img2/chicken-broth-7791112_640.jpg" class="card-img-top" alt="Tyúkhúsleves" title="Tyúkhúsleves">
+                <div class="card-body">
+                    <h5 class="card-title">Tyúkhúsleves</h5>
+                  <p class="card-text">Házi tyúkhúsleves, zöldséggel és tésztával.</p>
+                  <p class="card-text float-end fw-bold">1300 Ft</p>
+                </div>
+              </div>
+              <div class="card col-sm-4 m-2" style="width: 400px;">
+                <img src="img2/goulash-4014661_640.jpg" class="card-img-top" alt="Gulyás leves" title="Gulyás leves">
+                <div class="card-body">
+                    <h5 class="card-title">Gulyás leves</h5>
+                  <p class="card-text">Házi gulyás leves.</p>
+                  <p class="card-text float-end fw-bold">1450 Ft</p>
+                </div>
+              </div>
+              <div class="card col-sm-4 m-2" style="width: 400px;">
+                <img src="img2/food-3367699_640.jpg" class="card-img-top" alt="Gyümölcsleves" title="Gyümölcsleves">
+                <div class="card-body">
+                    <h5 class="card-title">Gyümölcsleves</h5>
+                  <p class="card-text">Hideg gyümölcslves exotikus gyümölcsökkel.</p>
+                  <p class="card-text float-end fw-bold">1200 Ft</p>
+                </div>
+              </div>
+    </div>
+</div>
+
+<hr style="width: 100%;" class="pb-5">
+
+    <h3 id="foetelek" class="mt-5 text-center">Főételek</h3>
+
+    <div class="container">
+        <div class="row">
+            <div class="card col-sm-4 m-2" style="width: 400px;">
+                <img src="img2/fish-and-chips-2753360_640.jpg" alt="Rántott csirkemell" title="Rántott csirkemell" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Rántott csirkemell</h5>
+                    <p class="card-text">Rántott csirkemell sült burgonyával.</p>
+                    <p class="card-text float-end fw-bold">1390 Ft</p>
+                </div>
+            </div>
+            <div class="card col-sm-4 m-2" style="width: 400px;">
+                <img src="img2/pasta-4625962_640.jpg" alt="Spagetti" title="Spagetti" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Spagetti</h5>
+                    <p class="card-text">Olasz recept által készítve.</p>
+                    <p class="card-text float-end fw-bold">1400 Ft</p>
+                </div>
+            </div>
+            <div class="card col-sm-4 m-2" style="width: 400px;">
+                <img src="img2/pizza-3870778_640.jpg" alt="Pizza" title="Pizza" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Pizza</h5>
+                    <p class="card-text">Pepperonis pizza.</p>
+                    <p class="card-text float-end fw-bold">1600 Ft</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr style="width: 100%;" class="pb-5">
+
+    <h3 id="desszert" class="mt-5 text-center">Desszertek</h3>
+
+    <div class="container">
+        <div class="row">
+            <div class="card col-sm-4 m-2" style="width: 400px;">
+                <img src="img2/pancakes-3926009_640.jpg" alt="Palacsinta" title="Palacsinta" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Palacsinta</h5>
+                    <p class="card-text">Kakaós Palacsinta</p>
+                    <p class="card-text float-end fw-bold">500 Ft / db</p>
+                </div>
+            </div>
+            <div class="card col-sm-4 m-2" style="width: 400px;">
+                <img src="img2/cheese-cake-7878989_640.jpg" alt="Sajttorta" title="Sajttorta" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Sajttorta</h5>
+                    <p class="card-text">Finom sajttorta.</p>
+                    <p class="card-text float-end fw-bold">500 Ft / szelet</p>
+                </div>
+            </div>
+            <div class="card col-sm-4 m-2" style="width: 400px;">
+                <img src="img2/dessert-8169395_640.jpg" alt="Fagyi kehely" title="Fagyi kehely" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Fagyi kehely</h5>
+                    <p class="card-text">Fehércsokis fagyi kehelyben.</p>
+                    <p class="card-text float-end fw-bold">800 Ft</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr style="width: 100%;" class="pb-5">
+        
+
+    <h3 id="ital" class="mt-5 text-center">Italok</h3>
+
+    <div class="container">
+        <div class="row">
+            <div class="card col-sm-4 m-2" style="width: 400px;">
+                <img src="img2/water-2315559_640.jpg" alt="Víz" title="Víz" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Víz</h5>
+                    <p class="card-text">Finom csap víz.</p>
+                    <p class="card-text float-end fw-bold">300 Ft</p>
+                </div>
+            </div>
+            <div class="card col-sm-4 m-2" style="width: 400px;">
+                <img src="img2/coke-2099000_640.jpg" alt="Coca Cola" title="Coca Cola" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Coca Cola</h5>
+                    <p class="card-text">Coca Cola ami finom.</p>
+                    <p class="card-text float-end fw-bold">390 Ft</p>
+                </div>
+            </div>
+            <div class="card col-sm-4 m-2" style="width: 400px;">
+                <img src="img2/fresh-orange-juice-1614822_640.jpg" alt="Narancslé" title="Narancslé" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Narancslé</h5>
+                    <p class="card-text">Frissen facsart narancslé.</p>
+                    <p class="card-text float-end fw-bold">375 Ft</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5 py-5">
+        <h3 class="text-center" id="comment">Megjegyzés</h3>
+        <form>
+            <div class="container mb-5">
+                <div class="csillag d-flex text-center mt-5 float-end col-sm-6">
+                    <h3>Értékelj minket:</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="col-sm-6">
+                    <label for="name" class="form-label">Név</label><br>
+                    <input type="text" class="form-control" required>
+                </div>
+            </div>
+            <div class="mb-2">
+                <label for="email" class="form-label">E-mail cím</label>
+                <input type="email" class="form-control" required>
+            </div>
+            <div>
+                <label for="message">Üzenet:</label><br>
+                <textarea name="message" id="message" cols="" class="form-control" rows="10" required></textarea>
+            </div>
+            <button id="gomb" type="submit" class="text-center float-end mt-2 bg-primary border-0 text-light rounded p-2">Küldés</button>
+        </form>
+    </div>
+    <footer class="bg-dark-subtle text-center py-3">
+        <p>2024 Iskola Étterem</p>
+        <p>Copiright © by Drótos Gábor</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="csillag.js" defer></script>
+</body>
+</html>
